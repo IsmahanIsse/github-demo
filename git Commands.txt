@@ -5,4 +5,6 @@
 #Initilizong Git Repo:
 	* git init
 
+#Amending Commit: (redo the Previus commit, fix a typo , forgot to include a file)
+	* git commit --amend
 
