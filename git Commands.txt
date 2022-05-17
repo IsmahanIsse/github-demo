@@ -1,0 +1,8 @@
+#first config the Name & Email of the author in git:
+	*git config --global user.name "YOUR NAME HERE"
+	*git config --global user.email "YOUR EMAIL HERE"
+
+#Initilizong Git Repo:
+	* git init
+
+
