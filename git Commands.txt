@@ -4,12 +4,39 @@
 
 #Initilizong Git Repo:
 	* git init
-
+ 
 #Amending Commit: (redo the Previus commit, fix a typo , forgot to include a file)
 	* git commit --amend
 
 #Viwing Branches: (view all your existing branches, the one with * is the current branch)
 	* git branch (To know how many branch we have)
 	* git branch <branch-name> (create new branch)
-	* git switch <brancg-name> (to switch to diffrent branch)
+	* git switch <branch-name> (to switch to diffrent branch)
+	* git switch -c <branch-name> (Creating and switching Branch)
+
+#Deleting & Renaming Branches:
+	* git branch -d <branch-name> | git branch -D <branch-name>
+	* git branch -m <NEW-branch-name>(changing Current Branch name)
+
+#Merging Branches:
+	* step 1 : git switch master (switch to master branch).
+	* step 2 : git merge <branch-name> (merge all the log/history of <branch-name> To merge with master)
+
+#Comparing changes with git diff:
+	* git diff (view all the changes in Repo).
+	* git diff --staged/--cached (list changes between staging area and our last commic{show me what will be include in my commit if i run git commit right now}).
+	* git diff HEAD [filename] / git diff --staged [filename](view the changes within specific file).
+	* git diff branch1...brranch2(Compare between two branches)
+	* git diff commit1..commit2(Compare between two Commit).
+
+#staching Basics:(help save changes that you are not yet ready to commit)
+	* git stash / git stash save
+	* git stash pop (remove most recently stashed changes in you stash and reapply them to your working station)
+	* git stash list(list all stash command)
+	* git stash apply stash@{number}(Applying Specific Stashes)
+	* git stash drop stash@{number}(Dropping Stash).
+	* git stash clear(clear all stash)
+
+
+
 
