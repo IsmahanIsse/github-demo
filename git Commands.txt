@@ -34,9 +34,13 @@
 	* git stash pop (remove most recently stashed changes in you stash and reapply them to your working station)
 	* git stash list(list all stash command)
 	* git stash apply stash@{number}(Applying Specific Stashes)
-	* git stash drop stash@{number}(Dropping Stash).
+	* git stash drop stash@{number}(Dropping Stash)
 	* git stash clear(clear all stash)
 
-
+#Undoing Commit & Revert & restor:
+	* git restore [filename]
+	* git reset <commit-hash>
+	* git reset --hard <commit-hash>
+	* git revert <comit-hash>
 
 
